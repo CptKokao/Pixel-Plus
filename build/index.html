@@ -7,9 +7,52 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Pixel Plus</title>
   <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__img">
+          <img src="img/logo.png" width="273" height="100" alt="логотип">
+        </div>
+        <div class="header__feedback">
+          <a class="header__feedback-link" href="tel:+7(499)7777777">+7(499)7777777</a>
+          <a class="header__feedback-link" href="tel:+7(499)7777777">+7(499)7777777</a>
+          <p class="headet__feedback-text">Обратная связь</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/slaid1.png" width="1248" height="462" alt="слайдер"></div>
+        <div class="swiper-slide"><img src="img/slaid1.png" alt="слайдер"></div>
+        <div class="swiper-slide"><img src="img/slaid1.png" alt="слайдер"></div>
+        <div class="swiper-slide"><img src="img/slaid1.png" alt="слайдер"></div>
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button swiper-button-next"></div>
+      <div class="swiper-button swiper-button-prev"></div>
+    </div>
 
+  </main>
+
+
+  <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
 </body>
 </html>
