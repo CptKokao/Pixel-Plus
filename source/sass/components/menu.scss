@@ -1,0 +1,28 @@
+.menu {
+  font-size: 18px;
+  margin-top: 15px;
+
+  li {
+    line-height: 30px;
+  }
+}
+
+.submenu {
+  font-size: 14px;
+  list-style: disc;
+  padding-left: 25px;
+  text-decoration: none;
+
+  li {
+    line-height: 22px;
+  }
+}
+
+.menu__active {
+  text-decoration: underline;
+}
+
+.submenu__active {
+  font-weight: bold;
+  text-decoration: underline;
+}

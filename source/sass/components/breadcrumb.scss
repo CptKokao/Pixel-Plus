@@ -1,0 +1,22 @@
+.breadcrumb {
+  display: flex;
+  margin-top: 5px;
+
+  li {
+    border-right: 1px solid #767676;
+    transform: skewX(-15deg);
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: underline;
+
+    &:first-of-type {
+      padding-left: 0;
+    }
+
+    &:last-of-type {
+      padding-right: 0;
+      border: none;
+      text-decoration: none;
+    }
+  }
+}

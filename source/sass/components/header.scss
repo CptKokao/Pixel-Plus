@@ -6,6 +6,7 @@
 .header__img {
   width: 273px;
   height: 100px;
+  margin-top: 30px;
 }
 
 .header__feedback {
@@ -16,42 +17,24 @@
   display: flex;
   justify-content: space-between;
   height: 230px;
-  padding-top: 65px;
+  padding-top: 35px;
   padding-bottom: 65px;
 }
 
 .header__feedback-link {
   display: block;
-  font-family: "Open Sans Condensed";
+  font-family: "Open Sans Condensed", sans-serif;
   font-size: 40px;
   line-height: 46px;
+  letter-spacing: 1px;
   color: #767676;
   text-decoration: none;
 }
 
-.headet__feedback-text {
+.header__feedback-text {
   display: inline-block;
+  margin-top: 10px;
   font-size: 24px;
   font-weight: bold;
   border-bottom: 2px dotted #767676;
 }
-
-.slider {
-  width: 100%;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-}
-
-.swiper-slide {
-  display: flex;
-  justify-content: center;
-}
-
-.swiper-button {
-  width: 34px;
-  height: 61px;
-  background-color: #d1d1d1;
-  color: #000000;
-}
-

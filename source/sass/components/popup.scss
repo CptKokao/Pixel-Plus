@@ -1,0 +1,52 @@
+.popup {
+  width: 465px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+
+  label {
+    text-align: center;
+  }
+
+  input {
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    &:not(:focus):invalid {
+      box-shadow: inset 0 0 13px 0 rgba(228, 106, 106, 0.75);
+      border: solid 1px #ff8383;
+      font-style: italic;
+    }
+
+    &:focus::placeholder {
+      color: transparent;
+    }
+  }
+
+  textarea {
+    resize: none;
+    height: 140px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    width: 128px;
+    padding: 14px;
+    background-color: #777777;
+    border: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0 auto;
+  }
+}
+
+.popup__title {
+  text-align: center;
+  margin-bottom: 35px;
+}

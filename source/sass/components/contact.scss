@@ -1,0 +1,40 @@
+.contact {
+  min-height: 220px;
+  background-color: #777777;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact__wrapper {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.contact__company {
+  padding-right: 16%;
+
+  a {
+    color: #ffffff;
+  }
+}
+
+.contact__dev {
+  position: relative;
+  width: 170px;
+
+  &::before {
+    content: "";
+    background-image: url("../img/company.png");
+    position: absolute;
+    top: 1px;
+    left: -45px;
+    width: 36px;
+    height: 38px;
+  }
+
+  a {
+    color: #ffffff;
+  }
+}
